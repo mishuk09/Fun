@@ -1,0 +1,53 @@
+body {
+    background: white;
+}
+
+.container-custom {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    max-width: 100%;
+    animation-name: nothing;
+    animation-duration: 3s;
+}
+
+@keyframes nothing {
+    from {
+        transform: scale(5);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+p {
+    color: red;
+    font-size: 4rem;
+    max-width: 100%;
+    animation-name: nothing;
+    animation-duration: 3s;
+}
+
+#birthday-logo {
+    color: green;
+}
+
+#main-div {
+    display: inline;
+    margin-top: 300px;
+}
+
+#description {
+    font-size: 30px;
+}
+
+#horizontal {
+    height: 5px;
+}
